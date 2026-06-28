@@ -1,3 +1,19 @@
+<div align="center">
+<img src="./image/Logo.png" alt="DSpark-OPD" width="350" /> 
+
+# DSpark-OPD
+
+DSpark-OPD 是一个研究工程，用于将 On-Policy Distillation（OPD，在线策略蒸馏）与 DeepSeek DeepSpec 的 DSpark 草稿模型结合起来。
+
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/Palind-Rome/DSpark-OPD?style=social)](https://github.com/Palind-Rome/DSpark-OPD)
+
+</div>
+
+> [!CAUTION]
+> 期末周搓的，还没来得及细看代码、实验。期末结束后维护。
+
 # DSpark-OPD
 
 DSpark-OPD is a research engineering scaffold for combining On-Policy Distillation (OPD) with DeepSeek DeepSpec's DSpark drafter.
