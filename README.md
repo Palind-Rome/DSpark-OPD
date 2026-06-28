@@ -3,7 +3,9 @@
 
 # DSpark-OPD
 
-DSpark-OPD 是一个研究工程，用于将 On-Policy Distillation（OPD，在线策略蒸馏）与 DeepSeek DeepSpec 的 DSpark 草稿模型结合起来。
+DSpark-OPD 用于将 On-Policy Distillation（OPD，在线策略蒸馏）与 DeepSeek DeepSpec 的 DSpark 草稿模型结合起来。
+
+公开 DeepSpec 的 DSpark 主要从 target-generated 轨迹训练，但真实 speculative decoding 部署时，target 验证的是 DSpark 自己提议的 draft block；所以 OPD 的切入点就是在 draft-induced states 上补监督。
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
