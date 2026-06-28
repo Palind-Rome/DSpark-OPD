@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./image/Logo.png" alt="DSpark-OPD" width="350" /> 
+<img src="./image/Logo.png" alt="DSpark-OPD" width="325" /> 
 
 # DSpark-OPD
 
