@@ -1,0 +1,28 @@
+project_name: dspark-opd-qwen3-4b
+target_model_name_or_path: Qwen/Qwen3-4B
+draft_block_size: 7
+replay_block_size: 7
+num_replay_anchors: 128
+
+loss:
+  ce_alpha: 0.1
+  tv_alpha: 0.9
+  confidence_alpha: 1.0
+  opd_alpha: 1.0
+  accepted_forward_kl_alpha: 1.0
+  rejected_reverse_kl_alpha: 1.0
+  loss_decay_gamma: 4.0
+  rejected_decay_gamma: 0.8
+  kl_temperature: 1.0
+  log_prob_min_clamp:
+  topk_renormalize_teacher: false
+
+scheduler:
+  early_stop: true
+  min_survival_probability: 0.0
+  include_bonus_token: true
+
+teachers:
+  - key: default
+    model_path: Qwen/Qwen3-4B
+    weight: 1.0
